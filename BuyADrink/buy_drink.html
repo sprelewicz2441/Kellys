@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Buy a MoFo a Drink</title>
+    </head>
+    <body>
+        <div id="page-ui-interaction" data-role="page" data-add-back-btn="true">
+
+        <!--Header-->
+        <div data-role="header" data-position="fixed">
+            <h1>Buy A MoFo A Drink</h1>
+        </div>
+
+        <!--Content-->
+        <div data-role="content">
+            <div id="login-wrap">
+                <form data-ajax="false" id="login-form">
+                    <h3 id="login-text">Fill out below:</h3>
+                    <div>
+                        <input id="login-username" type="text" placeholder="Who is it for?" />
+                        <input id="login-password" type="password" placeholder="Who are you?" />
+                    </div>
+
+                    <div class="buttons" class="ui-bar">
+                        <div id="button-area">
+                            <div class="left">
+                                <input type="submit" id="login" data-icon="check" data-inline="true" class="left" value="Purchase!" />
+                            </div>
+                            <div class="right">
+                                <button id="login-reset" data-icon="delete" data-inline="true" class="right">Reset</button>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        <!--Footer-->
+        <div data-role="footer" data-position="fixed" data-id="oneFooter">
+            <span class="footerText">Built by Scott R. Prelewicz</span>
+        </div>
+    </div>
+
+    </body>
+</html>

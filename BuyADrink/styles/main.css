@@ -30,6 +30,9 @@
 .clear {
     clear: both;
 }
+.header {
+    padding: 30px;    
+}
 
 /* MAP STYLES*/
 #page-location-content {
